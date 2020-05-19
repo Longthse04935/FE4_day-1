@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card {
+   background-color: #E8F3FE;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 auto;
+   padding: 5%;
+}
+
+.card__items {
+    width: 40%;
+    background-color: white;
+    height: auto;
+    border: 25px;
+    text-align: center;
+}
+
+.card__items-title {
+    font-size: 26px;
+}
+
+.card__title-left--color {
+    color: #2C8EF9;
+}
+
+.card__title-right--color {
+    color: #FF3A6C;
+}
+
+.card__items-content {
+    margin: 0 1rem;
+}
+
+.card__items-btn {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #1E87F9;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    border-radius: 25px;
+    padding: 0.25rem 0;
+}
+
+.card__items-btn--color {
+    background-color: #FF3366;
+}
