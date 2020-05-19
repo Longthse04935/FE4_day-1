@@ -9,7 +9,7 @@ img {
     width: 100%;
 }
 
-.container {
+.card__container {
     width: 60%;
     margin: 0 auto;
 }
