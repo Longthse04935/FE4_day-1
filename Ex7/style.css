@@ -1,0 +1,20 @@
+*{
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 40rem;
+    height:  40rem;
+    background-image: url('https://image.winudf.com/v2/image1/Y29tLnBlcmZhY3RhcHBzLmphbWVzLm5hdHVyZV9zY3JlZW5fMV8xNTQyOTA5OTc0XzA0MA/screen-1.jpg?fakeurl=1&type=.jpg');
+    background-repeat: no-repeat;
+    border:1px solid indigo;
+    border-radius: 50%;
+    background-size: cover;
+    overflow: hidden;
+    margin: 2rem;
+}
