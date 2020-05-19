@@ -1,0 +1,49 @@
+* {
+  font-size: 62.5%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Tạo một khối có class là `box` có độ rộng và chiều cao lần lượt là `200x300` 
+có màu nền là `#ffa400` và chữ bất kỳ màu đen, border màu vàng, padding 10px, 
+margin 15px bo góc 4px, chữ canh giữa. Lưu ý sử dụng đơn vị `rem` */
+
+.box {
+    box-sizing: border-box;
+    width: 20rem ;
+    height: 30rem;
+    background-color: #ffa400 ;
+    border: 1px #0c0c0c solid ;
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.box2 {
+    width: 500px;
+    background-color: #ffa400 ;
+    font-size: 16px;
+    margin-left : 1.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.box3 {
+    width: 100px;
+    background-color: #ffa400 ;
+    font-size: 16px;
+    margin-left : 1.5rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 2rem;
+}
+
